@@ -6,3 +6,41 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 88ms (Views: 73.8ms | ActiveRecord: 0.0ms | Allocations: 3738)
 
 
+Started GET "/" for ::1 at 2020-11-09 16:10:19 +0000
+  [1m[35m (3.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 187)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/ingrid/Desktop/dice_frontend/public/packs
+[Webpacker] Hash: 21eda0006e8390465cbb
+Version: webpack 4.44.2
+Time: 5853ms
+Built at: 11/09/2020 16:10:28
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+    js/hello_react-caa7fbb2b5d093ad7e42.js    1.1 MiB  hello_react  [emitted] [immutable]  hello_react
+js/hello_react-caa7fbb2b5d093ad7e42.js.map   1.27 MiB  hello_react  [emitted] [dev]        hello_react
+                             manifest.json  703 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+Entrypoint hello_react = js/hello_react-caa7fbb2b5d093ad7e42.js js/hello_react-caa7fbb2b5d093ad7e42.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./app/javascript/packs/hello_react.jsx] 1.07 KiB {hello_react} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 18 hidden modules
+
+Completed 200 OK in 8594ms (Views: 8584.9ms | ActiveRecord: 0.0ms | Allocations: 18850)
+
+
+Started GET "/" for ::1 at 2020-11-09 16:11:55 +0000
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by HomepageController#index as HTML
+  Rendering homepage/index.html.erb within layouts/application
+  Rendered homepage/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 175)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 39ms (Views: 31.9ms | ActiveRecord: 0.0ms | Allocations: 7520)
+
+
