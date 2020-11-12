@@ -1,5 +1,5 @@
 current directory: /Users/ingrid/Desktop/dice_frontend/vendor/bundle/ruby/2.7.0/gems/ffi-1.13.1/ext/ffi_c
-/Users/ingrid/.rvm/rubies/ruby-2.7.2/bin/ruby -I /Users/ingrid/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0 -r ./siteconf20201109-1623-1st1rro.rb extconf.rb
+/Users/ingrid/.rvm/rubies/ruby-2.7.2/bin/ruby -I /Users/ingrid/.rvm/rubies/ruby-2.7.2/lib/ruby/site_ruby/2.7.0 -r ./siteconf20201112-91124-11frjtg.rb extconf.rb
 checking for ffi_prep_closure_loc() in -lffi... yes
 checking for ffi_prep_cif_var()... yes
 checking for ffi_raw_call()... yes
@@ -39,4 +39,4 @@ linking shared-object ffi_c.bundle
 
 current directory: /Users/ingrid/Desktop/dice_frontend/vendor/bundle/ruby/2.7.0/gems/ffi-1.13.1/ext/ffi_c
 make "DESTDIR=" install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 ffi_c.bundle ./.gem.20201109-1623-1y3t6dx
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 ffi_c.bundle ./.gem.20201112-91124-ffv97j
